@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const prefix = "&";
 
-bot.login("Njk4MTc3MjkyNDA4NTg2MzUx.XtLdIg.rB8_PVar0HWSsYOeiqaRTxn0Zig");
+bot.login("");
 
 bot.on('message', message => {
     if (!message.channel.guild) return;
